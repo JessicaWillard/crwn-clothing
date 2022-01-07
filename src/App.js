@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import Hats from './pages/hats/hats.component';
 import Shop from './pages/shop/shop.component';
+import SignInPage from './pages/sign-in-page/sign-in-page.component';
 import Header from './components/header/header.component';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/shop' element={<Shop />} />
+        <Route path='/signin' element={<SignInPage />} />
         <Route path='/hats' element={<Hats />} />
       </Routes>
     </div>
