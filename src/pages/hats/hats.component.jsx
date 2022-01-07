@@ -1,9 +1,5 @@
 import React from 'react';
 
-const Hats = () => (
-  <div className='hats'>
-    <h1>Hats page</h1>
-  </div>
-);
+const Hats = () => <div className='hats'></div>;
 
 export default Hats;
